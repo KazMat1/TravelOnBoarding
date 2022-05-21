@@ -18,5 +18,14 @@
         "react"
     ],
     "rules": {
+        // Ignore the rules about ESLint
+        "no-use-before-define": 0, // Allow you to use something before defining
+        "react/prop-types": [
+            "error", 
+            {
+                "ignore": ["navigation"]
+            }
+        ]
+        
     }
 }
